@@ -3231,7 +3231,7 @@ def smooth_l1_loss(
     target: Tensor,
     size_average: Optional[bool] = None,
     reduce: Optional[bool] = None,
-    reduction: str = "mean",
+    reduction: str = "sum",
     beta: float = 1.0,
 ) -> Tensor:
     r"""Compute the Smooth L1 loss.
